@@ -1,0 +1,153 @@
+.navbar {
+    background-color: rgb(233, 110, 110);
+}
+
+.nav {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    font-family: Open;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-item a,
+.nav-link:hover {
+    color: black;
+    font-family: Open, sans-serif;
+}
+
+.nav .nav-link.active {
+    background-color: rgb(129, 25, 25);
+}
+
+.navbar-toggler, button {
+    background-color: white;
+}
+
+button:hover {
+    color: rgb(101, 216, 206);
+}
+
+.img_carousel {
+    height: 600px;
+}
+
+#sobre_o_park {
+    background-color: aqua;
+}
+
+.col-md-5 > img {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.title {
+    color: rgb(8, 226, 8);
+}
+
+.card {
+    background: linear-gradient(rgb(233, 11, 11),rgb(71, 63, 63));
+    color: #fff;
+    border: 2px solid black;
+}
+
+.card > img {
+    width: 100%;
+    height: 190px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+#lacalizacao {
+    background-color: bisque;
+}
+
+#Curiosidade > .container {
+    max-width: 700px;
+}
+
+#Curiosidade {
+    background-color: rgb(34, 28, 28);
+    color: white;
+}
+
+.accordion-button:hover {
+    color: black;
+}
+
+section p {
+    font-family: Open, sans-serif;
+    font-size: 20px;
+}
+
+section h2 {
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px){
+    .img_carousel {
+        height: 30vh;
+    }
+    .col-md-5 > img {
+        width: 90%;
+        border-radius: 15px;
+    }
+    .card {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .img_carousel {
+        height: 40vh;
+    }
+    #sobre_o_park .row {
+        display: block;
+    }
+    #sobre_o_park .col-md-5 {
+        width: 90%;
+        margin: auto;
+    }
+    #sobre_o_park .col-md-7 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+    .img_carousel {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px) and (orientation: landscape) {
+    .img_carousel {
+        height: 300px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .card {
+        margin: auto;
+    }
+    #sobre_o_park .col-md-5 {
+        width: 90%;
+        margin: auto;
+    }
+    #sobre_o_park .col-md-7 {
+        width: 100%;
+    }
+}
